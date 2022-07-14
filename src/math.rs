@@ -8,7 +8,7 @@ pub fn number_to_vector(number: u128) -> Vec<u128> {
     return numbers;
 }
 
-pub fn square_vector_values(values: &mut Vec<u128>) -> Vec<u128> {
+pub fn square_vector_values(values: &Vec<u128>) -> Vec<u128> {
     let mut squared_values: Vec<u128> = Vec::new();
 
     for value in values.iter() {
