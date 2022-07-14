@@ -1,3 +1,6 @@
+mod math;
+mod sum;
+
 fn main() {
     println!("Hello, world!");
 }
