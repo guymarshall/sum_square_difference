@@ -1,9 +1,9 @@
-pub fn sum(numbers: &mut Vec<u128>) -> Vec<u128> {
+pub fn sum(numbers: &mut Vec<u128>) -> u128 {
     let mut sum: u128 = 0;
 
-    for_each!(number in numbers {
+    for number in numbers.iter() {
         sum += number;
-    });
+    }
 
     return sum;
 }
