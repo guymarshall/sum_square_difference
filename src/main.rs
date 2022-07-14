@@ -8,13 +8,6 @@ fn main() {
 /*
 
 CONVERT TO RUST
-#include <iostream>
-#include "Sum.hpp"
-#include <vector>
-#include "Math.hpp"
-#include <cmath>
-
-#define LOG(x) std::cout << x << std::endl
 
 int main(int argc, char const *argv[])
 {
