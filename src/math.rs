@@ -12,7 +12,7 @@ pub fn square_vector_values(values: &Vec<u128>) -> Vec<u128> {
     let mut squared_values: Vec<u128> = Vec::new();
 
     for value in values.iter() {
-        squared_values.push(value * value);
+        squared_values.push(value.pow(2));
     }
 
     return squared_values;
